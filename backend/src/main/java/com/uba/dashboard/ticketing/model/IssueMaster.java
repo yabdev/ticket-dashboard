@@ -23,7 +23,6 @@ public class IssueMaster {
     @Column(name = "TITLE")
     private String title;
 
-    @Lob // Use @Lob for potentially large text fields like CLOB
     @Column(name = "DESCRIPTION")
     private String description;
 
@@ -49,7 +48,6 @@ public class IssueMaster {
     @Column(name = "LOGGED_BY")
     private String loggedBy;
 
-    @Lob
     @Column(name = "CLOSURE_COMMENT")
     private String closureComment;
 
